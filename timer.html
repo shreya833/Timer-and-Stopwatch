@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="timer.css">
+</head>
+<body>
+
+    <main>
+        <div id="container">
+            <h1>Timer</h1>
+        
+        <div class="count">00:00:00</div>
+        <div class="buttons-container">
+            <button onclick="start()" class="btn play"><i class="fa-sharp fa-solid fa-play"></i></button>
+            <button onclick="reset()" class="btn reset">Reset</button>
+            <button onclick="stop()" class="btn pause"><i class="fa-sharp fa-solid fa-pause"></i></button>
+            
+        </div>
+    </div>
+    </main>
+  
+    <script src="timer.js"></script>
+</body>
+</html>
